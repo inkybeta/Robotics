@@ -52,8 +52,13 @@
  * This task should never exit; it should end with some kind of infinite loop, even if empty.
  */
 void operatorControl() {
+<<<<<<< HEAD
 	lcdPrint(uart1, 2, "Starting operator control");
 	while (true) {
+=======
+
+	while (1) {
+>>>>>>> d5667635f0c32adf67d49e021a9375ad2fa2412e
 		delay(20);
 	}
 }

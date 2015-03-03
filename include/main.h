@@ -50,17 +50,6 @@
 extern "C" {
 #endif
 
-// Constants for the motors and the various ports
-#define FRONT_RIGHT 1
-#define FRONT_LEFT 2
-#define BACK_RIGHT 3
-#define BACK_LEFT 4
-#define LEFT_LIFT_TOP 5
-#define LEFT_LIFT_BOTTOM_FORWARD 6
-#define LEFT_LIFT_BOTTOM_BACK 7
-#define RIGHT_LIFT_TOP 8
-#define RIGHT_LIFT_BOTTOM_FORWARD 9
-#define RIGHT_LIFT_BOTTOM_BACK 10
 // A function prototype looks exactly like its declaration, but with a semicolon instead of
 // actual code. If a function does not match a prototype, compile errors will occur.
 

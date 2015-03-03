@@ -59,5 +59,9 @@ void initializeIO() {
  * can be implemented in this task if desired.
  */
 void initialize() {
+<<<<<<< HEAD
 	lcdPrint(uart1, 1, "Hello World!");
+=======
+
+>>>>>>> d5667635f0c32adf67d49e021a9375ad2fa2412e
 }
